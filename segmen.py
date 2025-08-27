@@ -1,5 +1,3 @@
-# model/segmentor.py
-
 import torch
 import torch.nn as nn
 import torchvision.models as models
@@ -21,3 +19,4 @@ class Segmentor(nn.Module):
         features = self.encoder(x)
         masks = self.seg_head(features)
         return masks
+
