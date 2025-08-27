@@ -1,5 +1,3 @@
-# train_segmentation.py
-
 import torch
 from torch.utils.data import DataLoader
 from torchvision import transforms
@@ -73,3 +71,4 @@ def main():
 # ✅ MAIN GUARD
 if __name__ == "__main__":
     main()
+
